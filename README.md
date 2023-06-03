@@ -22,14 +22,21 @@ To install the package use devtools::install_github("JoseAdrian3/AgreeDisagreeR"
 
 ## Requirements
 R: >= 4.2.3
+
 RStudio: >= 2023.03.0
+
 devtools package
 
 ## Examples of use
 Once installed you can access any help command where all example executions will be shown but even so several are shown here:
 
 > AgreeDisagreeR::agree("IPIP_unbalancing.rds", "SMOTE_unbalancing.rds", "ROSE_unbalancing.rds", "IPIP", 1)
+
 > AgreeDisagreeR::agree("IPIP_unbalancing_complete.rds", "SMOTE_unbalancing_complete.rds", "ROSE_unbalancing_complete.rds", "SMOTE", 2)
+
 > AgreeDisagreeR::agree_disagree("IPIP_unbalancing.rds", "SMOTE_unbalancing.rds", "ROSE_unbalancing.rds", "IPIP", "SMOTE", "ROSE")
+
 > AgreeDisagreeR::disagree("IPIP_unbalancing_complete.rds", "SMOTE_unbalancing_complete.rds", "ROSE_unbalancing_complete.rds")
+
 > AgreeDisagreeR::integrated_agree_disagree("IPIP_unbalancing.rds", "SMOTE_unbalancing.rds", "ROSE_unbalancing.rds", "IPIP", "SMOTE", "ROSE")
+
